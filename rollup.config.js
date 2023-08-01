@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url"
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
+// https://www.rollupjs.com/
 export default [{
   //入口文件
   input: "./src/core/index.ts",

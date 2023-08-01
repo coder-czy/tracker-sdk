@@ -2,17 +2,24 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
 </head>
 
 <body>
   <script src="./dist/index.js"></script>
   <script>
-    new tracker({ historyTracker: true })
+    new tracker({
+      historyTracker: true,
+      hashTracker: true,
+      domTracker: true,
+      jsError: true,
+      requestUrl: 'https://mock.apifox.cn/m1/420596-0-default/tracker',
+    })
   </script>
-
+  <button target-key="test">含有埋点</button>
+  <button>没有埋点</button>
 </body>
 
 </html>
