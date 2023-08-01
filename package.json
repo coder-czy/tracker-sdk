@@ -19,7 +19,7 @@
   "files": [
     "dist"
   ],
-  "author": "yangzi",
+  "author": "coder-czy",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^3.27.0",
